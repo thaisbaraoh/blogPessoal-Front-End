@@ -1,4 +1,8 @@
 export const environment = {
   production: true,
-  server: 'https://blogpessoaltestethaisbh.herokuapp.com'
+  token: '',
+  nome: '',
+  id: 0,
+  foto: '',
+   server: 'https://blogpessoaltestethaisbh.herokuapp.com'
 };

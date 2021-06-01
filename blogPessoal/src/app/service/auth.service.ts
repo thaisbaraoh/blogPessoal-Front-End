@@ -22,4 +22,13 @@ export class AuthService {
     return this.http.post<User>(`${environment.server}/usuarios/cadastrar`, user)
 
   }
+
+  logado (){
+    let ok : Boolean = false
+    
+    if (environment.token != ''){
+      ok = true
+    }
+    return ok
+  }
 }
